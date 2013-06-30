@@ -1,0 +1,26 @@
+{
+  "name": "findByPath",
+  "version": "0.0.0",
+  "description": "Find nested properties in an object by specifying a path, eg \"level1.level2.0.name\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "https://github.com/ahultgren/findByPath.git",
+  "keywords": [
+    "object",
+    "find",
+    "path",
+    "nested",
+    "properties"
+  ],
+  "author": "Andreas Hultgren",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-browserify": "~1.2.0",
+    "grunt-contrib-jshint": "~0.6.0"
+  }
+}
